@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879656EB15B313BA008582AD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 879656EA15B313BA008582AD /* main.cpp */; };
+		879656ED15B313BA008582AD /* BrianTetris.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 879656EC15B313BA008582AD /* BrianTetris.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		879656E415B313BA008582AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				879656ED15B313BA008582AD /* BrianTetris.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		879656E615B313BA008582AD /* BrianTetris */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BrianTetris; sourceTree = BUILT_PRODUCTS_DIR; };
+		879656EA15B313BA008582AD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		879656EC15B313BA008582AD /* BrianTetris.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BrianTetris.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879656E315B313BA008582AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879656DB15B313BA008582AD = {
+			isa = PBXGroup;
+			children = (
+				879656E915B313BA008582AD /* BrianTetris */,
+				879656E715B313BA008582AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879656E715B313BA008582AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879656E615B313BA008582AD /* BrianTetris */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879656E915B313BA008582AD /* BrianTetris */ = {
+			isa = PBXGroup;
+			children = (
+				879656EA15B313BA008582AD /* main.cpp */,
+				879656EC15B313BA008582AD /* BrianTetris.1 */,
+			);
+			path = BrianTetris;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879656E515B313BA008582AD /* BrianTetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879656F015B313BA008582AD /* Build configuration list for PBXNativeTarget "BrianTetris" */;
+			buildPhases = (
+				879656E215B313BA008582AD /* Sources */,
+				879656E315B313BA008582AD /* Frameworks */,
+				879656E415B313BA008582AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrianTetris;
+			productName = BrianTetris;
+			productReference = 879656E615B313BA008582AD /* BrianTetris */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879656DD15B313BA008582AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Self;
+			};
+			buildConfigurationList = 879656E015B313BA008582AD /* Build configuration list for PBXProject "BrianTetris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 879656DB15B313BA008582AD;
+			productRefGroup = 879656E715B313BA008582AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879656E515B313BA008582AD /* BrianTetris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879656E215B313BA008582AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879656EB15B313BA008582AD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		879656EE15B313BA008582AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		879656EF15B313BA008582AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		879656F115B313BA008582AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		879656F215B313BA008582AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879656E015B313BA008582AD /* Build configuration list for PBXProject "BrianTetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879656EE15B313BA008582AD /* Debug */,
+				879656EF15B313BA008582AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879656F015B313BA008582AD /* Build configuration list for PBXNativeTarget "BrianTetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879656F115B313BA008582AD /* Debug */,
+				879656F215B313BA008582AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879656DD15B313BA008582AD /* Project object */;
+}
